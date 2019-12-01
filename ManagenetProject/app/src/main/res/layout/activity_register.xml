@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="168dp"
+        app:srcCompat="@drawable/select_image"
+        tools:srcCompat="@drawable/select_image"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/new_id"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:hint="ID / Email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/validateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/round_edge"
+            android:text="중복확인"
+             />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/new_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/new_pw_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Password check"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:id="@+id/new_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/new_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Birth Date" />
+
+    <EditText
+        android:id="@+id/new_club_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="club name" />
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginRight="40dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="개인정보 수집 동의"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp" />-->
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/RG"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="right"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/aggreeButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="동의"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/disagreeButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="미 동의"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="20dp" />-->
+
+
+<!--        </RadioGroup>-->
+<!--    </RelativeLayout>-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginBottom="40dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="이용 약관 동의"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp" />-->
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/RG2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="right"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/aggreeButton2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="동의"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/disagreeButton2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="미 동의"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="20dp" />-->
+
+
+<!--        </RadioGroup>-->
+<!--    </RelativeLayout>-->
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+
+        android:background="@drawable/round_edge"
+        android:onClick="insert"
+        android:text="Sing Up" />
+
+</LinearLayout>

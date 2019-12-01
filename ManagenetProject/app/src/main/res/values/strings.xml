@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ManagenetProject</string>
+    <string name="title_activity_first_login">FirstLoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_dashboard" />
+    <string name="title_home" />
+    <string name="title_notifications" />
+    <string name="title_mypage" />
+</resources>
